@@ -9,7 +9,7 @@ Mysql 5.6
 
 Pasos:
 
-Se debe instalar la base de datos llamada pse.sql.
+Se debe instalar la base de datos llamada placetopay.sql.
 
 Si las credenciales de localhost, son diferentes a las del usuario root se debe modificar el archivo database.php, que se encuentra en la carpeta app/Config.
 
