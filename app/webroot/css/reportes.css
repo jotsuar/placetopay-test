@@ -1,0 +1,169 @@
+@media (max-width: 480px) {
+	.content-header h1 {font-size:21px;}
+	}
+	
+
+@media (min-width: 1200px){
+	.card-columns {
+		-webkit-column-count: 3;
+		-moz-column-count: 3;
+		column-count: 3;
+		-webkit-column-gap: 1.25rem;
+		-moz-column-gap: 1.25rem;
+		column-gap: 1.25rem;
+	}
+	.card-columns .card {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: .75rem;
+	}
+	.card {
+		position: relative;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		background-color: #fff;
+		border: 1px solid rgba(0,0,0,.125);
+		border-radius: .25rem;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	table.responsive-table {
+		width: 100%;
+		border-collapse: collapse;
+		border-spacing: 0;
+		display: block;
+		position: relative;
+		/* sort out borders */
+	}
+	table.responsive-table td:empty:before {
+		content: '\00a0';
+	}
+	table.responsive-table th,
+	table.responsive-table td {
+		margin: 0;
+		vertical-align: top;
+	}
+	table.responsive-table th {
+		text-align: left;
+	}
+	table.responsive-table thead {
+		display: block;
+		float: left;
+	}
+	table.responsive-table thead tr {
+		display: block;
+		padding: 0 10px 0 0;
+	}
+	table.responsive-table thead tr th::before {
+		content: "\00a0";
+	}
+	table.responsive-table tbody {
+		display: block;
+		width: auto;
+		position: relative;
+		overflow-x: auto;
+		white-space: nowrap;
+	}
+	table.responsive-table tbody tr {
+		display: inline-block;
+		vertical-align: top;
+	}
+	table.responsive-table th {
+		display: block;
+		text-align: right;
+	}
+	table.responsive-table td {
+		display: block;
+		min-height: 1.25em;
+		text-align: left;
+	}
+	table.responsive-table tr {
+		padding: 0 10px;
+	}
+	table.responsive-table thead {
+		border: 0;
+		border-right: 1px solid #d0d0d0;
+	}
+	table.responsive-table.bordered th {
+		border-bottom: 0;
+		border-left: 0;
+	}
+	table.responsive-table.bordered td {
+		border-left: 0;
+		border-right: 0;
+		border-bottom: 0;
+	}
+	table.responsive-table.bordered tr {
+		border: 0;
+	}
+	table.responsive-table.bordered tbody tr {
+		border-right: 1px solid #d0d0d0;
+	}
+}
+.p-3 {
+	padding: 1rem 1rem!important;
+}
+span.nombre-cuenta {
+    width: 100px;
+    display: block;
+    text-align: center;
+    padding: 6px 10px;
+    margin: 0px auto 10px;
+    position: relative;
+    font-weight: 100;
+}
+span.reporte0{
+	background-color: #03001f;
+	color: #fff;
+}
+span.reporte1{
+	background-color: #01dec8;
+	color: #03001f
+}
+span.reporte2{
+	background-color: #011c3e;
+	color: #fff;
+}
+span.reporte3{
+	background-color: #979797;
+	color: #fff;
+}
+span.nombre-cuenta:before {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+span.reporte0:before{
+	border-bottom: 15px solid #03001f;
+}
+span.reporte1:before{
+	border-bottom: 15px solid #01dec8;
+}
+span.reporte2:before{
+	border-bottom: 15px solid #011c3e;
+}
+span.reporte3:before{
+	border-bottom: 15px solid #979797;
+}
+@media (max-width: 480px) {
+	span.nombre-cuenta:before{
+		display: none;
+	}
+}
+.card-title{
+	color: #011c3e;
+}

@@ -1,0 +1,36 @@
+
+
+@media (max-width: 780px){
+	.login-box {
+	    width: 50% !important;
+	}
+	li.user-footer{
+		a.btn{
+		    background-color: #00c0ef !important;
+		    border-color: #00c0ef !important;
+		}
+	}
+}
+
+@media (max-width:480px){
+	.navbar-static-top .sidebar-toggle {
+	    padding: 28px;
+	}
+	.navbar-static-top .navbar-custom-menu .navbar-nav {
+    	padding: 11% 0 !important;
+	}
+	.main-sidebar {
+    	padding-top: 70%;
+	}
+	.login-box {
+    	width: 95% !important;
+	}
+	.logo{
+		height: auto !important;
+		& img{
+    		padding-bottom: 5%;
+		    width: 50% !important;
+		}
+	}
+
+}

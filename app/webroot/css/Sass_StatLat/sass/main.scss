@@ -1,0 +1,29 @@
+/*Abstracts*/
+@import "Abstracts/variables";
+@import "Abstracts/animaciones";
+@import "Abstracts/preload";
+/*Elements*/
+@import "Elements/header";
+@import "Elements/left_column";
+
+
+/*Components*/
+
+@import "Components/buttons";
+@import "Components/sweetAlert";
+//@import "Components/parsley";
+//@import "Components/alertsbootstrap";
+
+/*Pages*/
+@import "Pages/login";
+@import "Pages/map";
+@import "Pages/topics";
+@import "Pages/infographics";
+@import "Pages/main";
+
+/*Tools*/
+@import "Tools/tools";
+
+/*Base
+@import "Base/general";
+@import "Base/media-general";*/

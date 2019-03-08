@@ -1,0 +1,90 @@
+.btn-default, .btn-primary{
+	color: white;
+	background-color: $buttonBlue;
+	border-color: $buttonBlue;
+	&:hover{
+		background-color: $San-Juan !important;
+		border-color: $San-Juan !important;
+		color: white !important;
+	}
+	&:active{
+		background-color: $buttonBlue !important;
+		border-color: $buttonBlue !important;
+		color: white !important;
+	}
+	&:focus{
+		background-color: $buttonBlue !important;
+		border-color: $buttonBlue !important;
+		color: white !important;
+	}
+}
+.btn-success, .confirm{
+	background-color: $mediumturquoise !important;
+	border-color:$mediumturquoise !important;
+	&:hover{
+		background-color: $mediumturquoise !important;
+		border-color:$mediumturquoise !important;
+	}
+	&:active{
+		background-color: $mediumturquoise !important;
+		border-color:$mediumturquoise !important;		
+	}
+	&:focus{
+		background-color: $mediumturquoise !important;
+		border-color:$mediumturquoise !important;	
+	}
+}
+.btn-info{
+	background-color: $buttonBlue!important;
+	border-color:$buttonBlue!important;
+	&:hover{
+		background-color: $buttonBlue!important;
+		border-color:$buttonBlue!important;
+	}
+	&:active{
+		background-color: $buttonBlue!important;
+		border-color:$buttonBlue!important;
+	}
+	&:focus{
+		background-color: $buttonBlue!important;
+		border-color:$buttonBlue!important;
+	}
+}
+
+.btn-warning{
+	background-color: $dodgerblue!important;
+	border-color:  $dodgerblue!important;
+	&:hover{
+		background-color: $dodgerblue!important;
+		border-color:  $dodgerblue!important;	
+	}
+	&:active{
+		background-color: $dodgerblue!important;
+		border-color:  $dodgerblue!important;
+	}
+	&:focus{
+		background-color: $dodgerblue!important;
+		border-color:  $dodgerblue!important;
+	}
+}
+
+.btn-danger, .cancel{
+	background-color: $darksteelblue!important;
+	border-color: #125399!important;
+	&:hover{
+		background-color: $darksteelblue !important;
+		border-color: #125399 !important;	
+	}
+	&:active{
+		background-color: $darksteelblue !important;
+		border-color: #125399 !important;		
+	}
+	&:focus{
+		background-color: $darksteelblue !important;
+		border-color: #125399 !important;		
+	}
+}
+
+.btn-fill{
+	margin: .5em 0;
+}

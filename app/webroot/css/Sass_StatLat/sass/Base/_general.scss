@@ -1,0 +1,92 @@
+body{
+	font-family: "Quicksand", sans-serif !important;
+	font-weight: 500;
+}
+
+h1{
+	color: $specialblack;
+	font-weight: 600;
+	font-size: 30px !important;
+}
+
+h2{
+	color: $deepskyblue;
+	font-size: 20px !important;
+}
+.externas {
+    overflow: hidden;
+    height: 100vh;
+    background-color: #0071bc;
+    .login-box-body{
+    	background-color: transparent;
+    }
+}
+
+//Tables
+.table{ 
+	thead tr{ 
+		th{
+			color: $dodgerblue !important;
+		}
+	}
+	& tbody	td{
+		font-weight: 500 !important;
+	}
+}
+.dataTables_wrapper{
+	.dataTables_length label, .dataTables_info, .dataTables_filter{
+		color: $buttonBlue !important;
+	}
+	.pagination>.active>a{
+		background-color: $buttonBlue !important;
+		border-color: #00acd6;
+	}
+}
+.pagination-out{
+	color: $buttonBlue;
+	text-align: center;
+}
+
+.general-table-view{
+	tr td:nth-child(1){
+		color: $mediumturquoise;
+	}
+	td{
+		padding:8px !important;
+	}
+	ul.list-unstyled{
+		& li{
+			display: inline-block;
+		}
+	}
+}
+// End Tables
+
+//Labels Form
+label.control-label{
+		color: $dodgerblue;
+	}
+
+.checkbox{
+	label{
+		color:$dodgerblue;
+	}
+}
+.tag-editor{
+	border-color: #ccc;
+}
+
+//End Form
+
+//User info
+li.user-footer{
+	a.btn{
+		color: white !important;
+		margin-bottom: 1em;
+		width: 100% !important; 
+	}
+}
+
+iframe{
+	width:100%;
+}

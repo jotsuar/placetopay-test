@@ -1,0 +1,39 @@
+.logo{
+	background-color: $specialblack !important;
+	height: 100px !important;
+	img{
+		padding-top: 5%;
+		width: 40%;
+		@media (max-width:480px) {
+			width: 30%;
+		}
+	}
+}
+.navbar-static-top{
+	background-color: #000027 !important;	
+	.sidebar-toggle{
+		font-size: 27px;
+		padding: 30px;
+	}
+	.navbar-custom-menu{
+		.navbar-nav {
+			padding: 5% 0;
+			li a{
+				font-size: 20px;
+				color: #fff;
+				&.btn-flat{
+					font-size: 17px;
+				}
+			}
+			.label-success{
+				background-color: #00d3c8 !important;
+			}
+			.label-warning{
+				background-color: #3fa9f5 !important;
+			}
+			.label-danger{
+				background-color: #0f2741 !important;
+			}
+		}	
+	}
+}

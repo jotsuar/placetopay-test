@@ -1,0 +1,23 @@
+/*StatLat General Colors*/
+$mediumturquoise: #00d3c8;
+$specialblack: #000027;
+$darksteelblue: #0f2741;
+$deepskyblue: #3fa9f5;
+$dodgerblue: #0071bc;
+$buttonBlue: #021C3D;
+$San-Juan: #395475;
+
+/*Quicksand Font*/
+@font-face{
+	font-family: "Quicksand";
+	src:url('../../../fonts/Quicksand/Quicksand-Bold.ttf') format('truetype'),
+	url('../../../fonts/Quicksand/Quicksand-Light.ttf') format('truetype'),
+	url('../../../fonts/Quicksand/Quicksand-Medium.ttf') format('truetype'),
+	url('../../../fonts/Quicksand/Quicksand-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*StatLat General Font*/
+
+$Quicksand: "Quicksand";

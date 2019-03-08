@@ -1,0 +1,75 @@
+.logoLogin {
+	text-align: center;
+	img{
+	   	width: 65%;
+	}
+}
+.login-box {
+	input, input::placeholder{
+	color: $dodgerblue !important;
+	}
+}
+.login-box .glyphicon{
+	color: $deepskyblue !important;
+}
+
+.login-box a{
+	color: $mediumturquoise;
+}
+
+.login-box button{
+	background-color: $mediumturquoise;
+	border-color: $mediumturquoise;
+}
+.login-content{
+	// margin: 215px auto;
+
+	h2{
+		font-family: "Quicksand", sans-serif !important;
+	}
+	.info-remenber-password{
+		color: #00d3c8;
+		font-size: 1.8rem;
+		line-height: 1;
+		margin-top: 10px;
+	}
+	@media (max-width: 480px){
+		margin: 110px auto;
+	}
+	@media (max-width:780px) and (min-width:481px) {
+		margin: 120px auto;
+	}
+	@media (max-width:1200px) and (min-width:781px) {
+		margin:120px auto;
+	}
+	@media (max-width:1500px) and (min-width:1201px) {
+		margin:140px auto;
+	}
+}
+.externas {
+    overflow: hidden;
+    height: 100vh;
+    background-image: url(../../../img/loguin_background.jpg);
+        background-size: cover;
+    background-attachment: fixed;
+    .login-box-body{
+    	background-color: transparent;
+    	h2{
+    		color: #fff;
+    	}
+    	form {
+		    padding: 20px;
+		    border-radius: 10px;
+		    background-color: rgba(250, 250, 250, 0.7);
+		}
+    }
+    .login-box a {
+		color: #fff;
+	}
+    .login-box, .register-box{
+    	    width: 420px;
+    	    @media (max-width:480px) {
+    	    	width: 100%	
+    	    }
+    }
+}

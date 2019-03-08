@@ -1,0 +1,13 @@
+.infographics-table-view{
+	tr td:nth-child(1){
+		color: $mediumturquoise;
+	}
+}
+@media(min-width:1024px){
+	.infographics-table-index{
+		.img-responsive{
+			max-width: 	50% !important;
+			margin: 0 auto;
+		}
+	}
+}
